@@ -1,7 +1,7 @@
 /* Title Page */
 .page1{
     background-color: black;
-    color: whitesmoke;
+    color: black;
     display:inline-block;
     text-align: center;
     height:100vh;
@@ -12,13 +12,19 @@
     position: relative;
     top: 30%;
     font-family: 'Silkscreen';
+    
+
 }
+
+
+
+ 
 
 .playButton{
     display:inline-block;
     font-size: larger;
-    border: white;
     background-color: black;
+    border: none;
     color: whitesmoke;
     font-family: 'Silkscreen';
     text-align: center;
