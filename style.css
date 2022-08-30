@@ -31,22 +31,44 @@
 }
 
 
-
-
 /* Page 2 */
 .page2{
     background-color: black;
-    color: white;
-    display:block;
+    color: whitesmoke;
+    display:inline-block;
     text-align: center;
-}
-.rules{
-    color: lightgrey;
-    display:block;
-    text-align: center;
+    height:100vh;
+    width:100vw;
+    
 }
 
+.page2rules{
+    position: relative;
+    top: 10%;
+    font-family: 'Silkscreen';
+}
 
+.page2scoring{
+    position: relative;
+    top: 18%;
+    font-family: 'Silkscreen';
+}
+
+.startButton{
+    display:inline-block;
+    font-size: 30px;
+    border: white;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Silkscreen';
+    text-align: center;
+    position: relative;
+    top: 25%;
+}
+
+.startButton:hover{
+    color: blue;
+}
 
 
 
