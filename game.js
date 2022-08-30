@@ -14,7 +14,11 @@
 
 
 
-// finction - score counter = total destroyed enemy points + time bonus
+// function - score counter = total destroyed enemy points + time bonus
+
+
+
+// function - time bonus calculated
 
 
 
@@ -39,3 +43,19 @@
 
 
 // function - enemyGold movement
+
+
+
+// function - enemy shoots bullet at x interval of time
+
+
+
+// function - bullet contact triggers explosion and -1 life (all enemies have 1 life, gold enemy has 2 lives)
+
+
+
+// function - +1 life trigger = enemies >= 10 and/or destroy gold enemy
+
+
+
+// function - 
