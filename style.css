@@ -1,0 +1,61 @@
+/* Title Page */
+.page1{
+    background-color: black;
+    color: whitesmoke;
+    display:inline-block;
+    text-align: center;
+    height:100vh;
+    width:100vw;
+}
+
+.title{
+    position: relative;
+    top: 30%;
+    font-family: 'Silkscreen';
+}
+
+.playButton{
+    display:inline-block;
+    font-size: larger;
+    border: white;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Silkscreen';
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+.playButton:hover{
+    color: blue;
+}
+
+
+
+
+/* Page 2 */
+.page2{
+    background-color: black;
+    color: white;
+    display:block;
+    text-align: center;
+}
+.rules{
+    color: lightgrey;
+    display:block;
+    text-align: center;
+}
+
+
+
+
+
+
+/* Game */
+.page3{
+    background-color: black;
+    color: whitesmoke;
+    display:block;
+    text-align: center;
+}
+
