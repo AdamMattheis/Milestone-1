@@ -1,7 +1,8 @@
 /* Title Page */
 .page1{
     background-color: black;
-    color: black;
+    /* color: black; */
+    color: whitesmoke;
     display:inline-block;
     text-align: center;
     height:100vh;
@@ -22,14 +23,14 @@
 
 .playButton{
     display:inline-block;
-    font-size: larger;
+    font-size: 25px;
     background-color: black;
     border: none;
     color: whitesmoke;
     font-family: 'Silkscreen';
     text-align: center;
     position: relative;
-    top: 40%;
+    top: 45%;
 }
 
 .playButton:hover{
@@ -91,5 +92,33 @@
     color: whitesmoke;
     display:block;
     text-align: center;
+}
+
+
+
+
+
+
+/* Post Game */
+
+.postGamePage{
+    background-color: black;
+    color: whitesmoke;
+    display:inline-block;
+    text-align: center;
+    height:100vh;
+    width:100vw;
+}
+
+.endResult{
+    position: relative;
+    top: 20%;
+    font-family: 'Silkscreen';
+}
+
+.score{
+    position: relative;
+    top: 20%;
+    font-family: 'Silkscreen';
 }
 
