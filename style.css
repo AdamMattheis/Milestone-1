@@ -1,3 +1,8 @@
+html{
+    margin: 0;
+    background-color: black;
+}
+
 body{
     margin: 0;
 }
@@ -40,25 +45,29 @@ body{
 .page2{
     background-color: black;
     color: whitesmoke;
-    display:inline-block;
+    display: block;
     text-align: center;
     height:100vh;
     width:100vw;
+    top: 0;
 }
 
 .page2rules{
+    top: 4%;
+    background-color: black;
     position: relative;
-    top: 0.3%;
     font-family: 'Silkscreen';
 }
 
 .page2controls{
+    background-color: black;
     position: relative;
     top: 5%;
     font-family: 'Silkscreen';
 }
 
 .page2scoring{
+    background-color: black;
     position: relative;
     top: 10%;
     font-family: 'Silkscreen';
