@@ -9,19 +9,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap">
     <script src="game.js"></script>
 </head>
-<body>
+<body onload="startGame">
+    <!-- Game Canvas -->
+    <canvas id="canvas" style='display:none' class="canvas"></canvas>
+
     <!--Title Page-->
     <div id="page1" class="page1">
-        <h1 id="title" class="title">
-            <span id="t1">M</span><span id="t2">Y</span><span id="t3"> </span><span id="t4">S</span><span id="t5">P</span><span id="t6">A</span><span id="t7">C</span><span id="t8">E</span><span id="t9">  </span><span id="t10">I</span><span id="t11">N</span><span id="t12">V</span><span id="t13">A</span><span id="t14">D</span><span id="t15">E</span><span id="t16">R</span><span id="t17">S</span> 
-             
-           
-        </h1>
-        <button class="playButton" id="playButton" type="button">PLAY</button>
+        <h1 id="title" class="title">MY SPACE INVADERS</h1>
+        <button onclick="clickPlay()" class="playButton" id="playButton" type="button">PLAY</button>
     </div>
    
     <!--Page 2:Rules-->
-    <div id="page2" class="page2">
+    <div style='display:none' id="page2" class="page2">
         <div class ="page2rules">
             <h2>RULES</h2>
                 <p>DESTROY ALL <span style="color:rgb(131, 211, 237)">ENEMIES</span> AS FAST AS POSSIBLE</p>
@@ -42,11 +41,11 @@
                 <p><span style="color:red">RED</span> <span style="color:grey">=</span> 50 <span style="color:grey">POINTS</span></p>
                 <p><span style="color:goldenrod">GOLD</span> <span style="color:grey">=</span> 100 <span style="color:grey">POINTS</span></p>
         </div>
-        <button id="startButton" class="startButton" type="button">START</button>
+        <button onclick="clickStart()" id="startButton" class="startButton" type="button">START</button>
     </div>
 
     <!-- Post Game Page -->
-    <div id="postGamePage" class="postGamePage">
+    <div style='display:none' id="postGamePage" class="postGamePage">
         <div id="endResult" class="endResult">
             <h1>VICTORY!</h1>
             <h1>GAME OVER</h1>
@@ -65,8 +64,8 @@
 
     </div>
     
-    <!--Page 3: Game-->
-    <!-- <canvas id="canvas" style='display:none' class="page3"></canvas> -->
+   
+   
 
     
 </body>

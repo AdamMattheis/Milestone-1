@@ -1,42 +1,39 @@
-// function - type out text letter by letter. used for title page, page 2, and post-game page 
+// Function - trigger game canvas 
 
-// const letter = [
-//     document.getElementById("t1"),
-//     document.getElementById("t2"),
-//     document.getElementById("t3"),
-//     document.getElementById("t4"),
-//     document.getElementById("t5"),
-//     document.getElementById("t6"),
-//     document.getElementById("t7"),
-//     document.getElementById("t8"),
-//     document.getElementById("t9"),
-//     document.getElementById("t10"),
-//     document.getElementById("t11"),
-//     document.getElementById("t12"),
-//     document.getElementById("t13"),
-//     document.getElementById("t14"),
-//     document.getElementById("t15"),
-//     document.getElementById("t16"),
-//     document.getElementById("t17")
-// ]
 
-// function typeoutColor(){
-//     document.getElementById.style.color='whitesmoke';
-//     setInterval(typeoutColor,300);
-// };
-
-// letter.forEach(typeoutColor);
 
 
 // function - clicking "PLAY" button triggers page 2 to replace title page
+function clickPlay(){
+    let startPage = document.getElementById("page1")
+    let loadPage2 = document.getElementById("page2");
+    let game = document.getElementById("canvas");
+    let loadPostGame = document.getElementById("postGamePage");
+    startPage.style.display = "none"
+    loadPage2.style.display = "block";
+    game.style.display = "none";
+    loadPostGame.style.display = "none";
+    start();
+}
+
+
 
 
 
 // function - clicking "START" button triggers game canvas to replace page 2
-
+function clickStart(){
+    let loadPage2 = document.getElementById("page2");
+    let game = document.getElementById("canvas");
+    let loadPostGame = document.getElementById("postGamePage");
+    loadPage2.style.display = "none";
+    game.style.display = "block";
+    loadPostGame.style.display = "none";
+    start();
+}
 
 
 // function - post-game page is triggered when lives = 0 or enemies = 21 (all enemies destroyed)
+
 
 
 
