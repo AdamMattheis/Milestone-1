@@ -8,7 +8,6 @@ function clickPlay(){
     loadPage2.style.display = "block";
     q1.style.display = "none";
     loadPostGame.style.display = "none";
-    start();
 }
 
 // function - clicking "START" button triggers game question 1 to replace page 2
@@ -23,13 +22,13 @@ function clickStart(){
     questions.style.display = "block";
     q1.style.display = "block";
     loadPostGame.style.display = "none";
-    start();
 }
 
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 
 
 
@@ -43,6 +42,8 @@ function q1a(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+    
+    
 }
 function q1b(){
     let a = document.getElementById("1a");
@@ -53,6 +54,8 @@ function q1b(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+    
+    
 }
 function q1c(){
     let a = document.getElementById("1a");
@@ -63,6 +66,7 @@ function q1c(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+    
 }
 function q1d(){
     let a = document.getElementById("1a");
@@ -73,6 +77,7 @@ function q1d(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+    
 }
 function nextqButton1(){
     let startPage = document.getElementById("page1");
@@ -87,8 +92,9 @@ function nextqButton1(){
     q1.style.display = "none";
     q2.style.display = "block";
     loadPostGame.style.display = "none";
-    start();
+    
 }
+
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -106,6 +112,7 @@ function q2a(){
     b.style.color = "green";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function q2b(){
     let a = document.getElementById("2a");
@@ -116,6 +123,7 @@ function q2b(){
     b.style.color = "green";
     c.style.color = "red";
     d.style.color = "red";
+   
 }
 function q2c(){
     let a = document.getElementById("2a");
@@ -126,6 +134,7 @@ function q2c(){
     b.style.color = "green";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function q2d(){
     let a = document.getElementById("2a");
@@ -136,6 +145,7 @@ function q2d(){
     b.style.color = "green";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function nextqButton2(){
     let startPage = document.getElementById("page1");
@@ -152,8 +162,10 @@ function nextqButton2(){
     q2.style.display = "none";
     q3.style.display = "block";
     loadPostGame.style.display = "none";
-    start();
+    
+    
 }
+
 
 
 
@@ -173,6 +185,7 @@ function q3a(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+    
 }
 function q3b(){
     let a = document.getElementById("3a");
@@ -183,6 +196,7 @@ function q3b(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+    
 }
 function q3c(){
     let a = document.getElementById("3a");
@@ -193,6 +207,7 @@ function q3c(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+    
 }
 function q3d(){
     let a = document.getElementById("3a");
@@ -203,6 +218,7 @@ function q3d(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+   
 }
 function nextqButton3(){
     let startPage = document.getElementById("page1");
@@ -221,7 +237,7 @@ function nextqButton3(){
     q3.style.display = "none";
     q4.style.display = "block";
     loadPostGame.style.display = "none";
-    start();
+   
 }
 
 
@@ -242,6 +258,7 @@ function q4a(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "red";
+
 }
 function q4b(){
     let a = document.getElementById("4a");
@@ -252,6 +269,7 @@ function q4b(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function q4c(){
     let a = document.getElementById("4a");
@@ -262,6 +280,7 @@ function q4c(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "red";
+   
 }
 function q4d(){
     let a = document.getElementById("4a");
@@ -272,6 +291,7 @@ function q4d(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function nextqButton4(){
     let startPage = document.getElementById("page1");
@@ -292,9 +312,7 @@ function nextqButton4(){
     q4.style.display = "none";
     q5.style.display = "block";
     loadPostGame.style.display = "none";
-    start();
 }
-
 
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -311,6 +329,7 @@ function q5a(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+    
 }
 function q5b(){
     let a = document.getElementById("5a");
@@ -321,6 +340,7 @@ function q5b(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+   
 }
 function q5c(){
     let a = document.getElementById("5a");
@@ -331,6 +351,7 @@ function q5c(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+   
 }
 function q5d(){
     let a = document.getElementById("5a");
@@ -341,6 +362,7 @@ function q5d(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+   
 }
 function nextqButton5(){
     let startPage = document.getElementById("page1");
@@ -363,7 +385,6 @@ function nextqButton5(){
     q5.style.display = "none";
     q6.style.display = "block";
     loadPostGame.style.display = "none";
-    start();
 }
 
 
@@ -384,6 +405,7 @@ function q6a(){
     b.style.color = "green";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function q6b(){
     let a = document.getElementById("6a");
@@ -394,6 +416,7 @@ function q6b(){
     b.style.color = "green";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function q6c(){
     let a = document.getElementById("6a");
@@ -404,6 +427,7 @@ function q6c(){
     b.style.color = "green";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function q6d(){
     let a = document.getElementById("6a");
@@ -414,6 +438,7 @@ function q6d(){
     b.style.color = "green";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function nextqButton6(){
     let startPage = document.getElementById("page1");
@@ -438,7 +463,6 @@ function nextqButton6(){
     q6.style.display = "none";
     q7.style.display = "block";
     loadPostGame.style.display = "none";
-    start();
 }
 
 
@@ -459,6 +483,7 @@ function q7a(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+    
 }
 function q7b(){
     let a = document.getElementById("7a");
@@ -469,6 +494,7 @@ function q7b(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+    
 }
 function q7c(){
     let a = document.getElementById("7a");
@@ -479,6 +505,7 @@ function q7c(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+    
 }
 function q7d(){
     let a = document.getElementById("7a");
@@ -489,6 +516,7 @@ function q7d(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+    
 }
 function nextqButton7(){
     let startPage = document.getElementById("page1");
@@ -515,8 +543,9 @@ function nextqButton7(){
     q7.style.display = "none";
     q8.style.display = "block";
     loadPostGame.style.display = "none";
-    start();
 }
+
+
 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -533,6 +562,7 @@ function q8a(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function q8b(){
     let a = document.getElementById("8a");
@@ -543,6 +573,7 @@ function q8b(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function q8c(){
     let a = document.getElementById("8a");
@@ -553,6 +584,7 @@ function q8c(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function q8d(){
     let a = document.getElementById("8a");
@@ -563,6 +595,7 @@ function q8d(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "red";
+    
 }
 function nextqButton8(){
     let startPage = document.getElementById("page1");
@@ -591,7 +624,6 @@ function nextqButton8(){
     q8.style.display = "none";
     q9.style.display = "block";
     loadPostGame.style.display = "none";
-    start();
 }
 
 
@@ -612,6 +644,7 @@ function q9a(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+    
 }
 function q9b(){
     let a = document.getElementById("9a");
@@ -622,6 +655,7 @@ function q9b(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+   
 }
 function q9c(){
     let a = document.getElementById("9a");
@@ -632,6 +666,7 @@ function q9c(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+  
 }
 function q9d(){
     let a = document.getElementById("9a");
@@ -642,6 +677,7 @@ function q9d(){
     b.style.color = "red";
     c.style.color = "green";
     d.style.color = "red";
+    
 }
 function nextqButton9(){
     let startPage = document.getElementById("page1");
@@ -672,7 +708,6 @@ function nextqButton9(){
     q9.style.display = "none";
     q10.style.display = "block";
     loadPostGame.style.display = "none";
-    start();
 }
 
 
@@ -691,6 +726,7 @@ function q10a(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+   
 }
 function q10b(){
     let a = document.getElementById("10a");
@@ -701,6 +737,7 @@ function q10b(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+   
 }
 function q10c(){
     let a = document.getElementById("10a");
@@ -711,6 +748,7 @@ function q10c(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+   
 }
 function q10d(){
     let a = document.getElementById("10a");
@@ -721,6 +759,7 @@ function q10d(){
     b.style.color = "red";
     c.style.color = "red";
     d.style.color = "green";
+   
 }
 function nextqButton10(){
     let startPage = document.getElementById("page1");
@@ -752,8 +791,7 @@ function nextqButton10(){
     q9.style.display = "none";
     q10.style.display = "none";
     loadPostGame.style.display = "block";
-    endResult.style.display = "block";
-    start();
+    endResult.style.display = "block";  
 }
 
 
@@ -761,7 +799,4 @@ function nextqButton10(){
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-// game score calculator
-function gameScore(){
-    
-}
+
