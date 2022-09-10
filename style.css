@@ -116,12 +116,19 @@ body{
     top: 60%;
     }
     
-    .nextqButton:hover{
-        color:blue;
-    }
+.nextqButton:hover{
+    color:blue;
+    
+}
     
 .que{
     padding:2em;
+}
+
+.qButton:hover{
+    color: aqua;
+    background-color: black;
+    border: none;
 }
 
 /* Post Game */
