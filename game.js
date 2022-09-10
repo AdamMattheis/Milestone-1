@@ -1,92 +1,107 @@
-// Function - trigger game canvas 
-
-
-
-
 // function - clicking "PLAY" button triggers page 2 to replace title page
 function clickPlay(){
-    let startPage = document.getElementById("page1")
+    let startPage = document.getElementById("page1");
     let loadPage2 = document.getElementById("page2");
-    let game = document.getElementById("canvas");
+    let q1 = document.getElementById("q1");
     let loadPostGame = document.getElementById("postGamePage");
-    startPage.style.display = "none"
+    startPage.style.display = "none";
     loadPage2.style.display = "block";
-    game.style.display = "none";
+    q1.style.display = "none";
     loadPostGame.style.display = "none";
     start();
 }
 
-
-
-
-
-// function - clicking "START" button triggers game canvas to replace page 2
+// function - clicking "START" button triggers game question 1 to replace page 2
 function clickStart(){
+    let startPage = document.getElementById("page1");
     let loadPage2 = document.getElementById("page2");
-    let game = document.getElementById("canvas");
+    let q1 = document.getElementById("q1");
     let loadPostGame = document.getElementById("postGamePage");
+    let questions = document.getElementById("questions");
+    startPage.style.display = "none";
     loadPage2.style.display = "none";
-    game.style.display = "block";
+    questions.style.display = "block";
+    q1.style.display = "block";
     loadPostGame.style.display = "none";
     start();
 }
 
 
-// function - post-game page is triggered when lives = 0 or enemies = 21 (all enemies destroyed)
+
+
+// question 1
+function q1a(){
+    let a = document.getElementById("1a");
+    let b = document.getElementById("1b");
+    let c = document.getElementById("1c");
+    let d = document.getElementById("1d");
+    a.style.color = "red"; 
+    b.style.color = "red";
+    c.style.color = "green";
+    d.style.color = "red";
+
+}
+
+function q2b(){
+
+}
+
+function q3b(){
+
+}
+
+function q4b(){
+
+}
+
+function nextqButton1(){
+    let startPage = document.getElementById("page1");
+    let loadPage2 = document.getElementById("page2");
+    let q1 = document.getElementById("q1");
+    let loadPostGame = document.getElementById("postGamePage");
+    let questions = document.getElementById("questions");
+    let q2 = document.getElementById("q2");
+    startPage.style.display = "none";
+    loadPage2.style.display = "none";
+    questions.style.display = "block";
+    q1.style.display = "none";
+    q2.style.display = "block";
+    loadPostGame.style.display = "none";
+    start();
+}
+
+// question 2
 
 
 
-
-// function - score counter = total destroyed enemy points + time bonus
-
-
-
-// function - time bonus calculated
+// question 3
 
 
 
-// function - player movement left or right with arrow keys
+// question 4
 
 
 
-// function - shoots bullet with space bar
+// question 5
 
 
 
-// function - enemyGreen movement
+// question 6
 
 
 
-// function - enemyBlue movement
+// question 7
 
 
 
-// function - enemyRed movement 
+// question 8
 
 
 
-// function - enemyGold movement
+// question 9
 
 
 
-// function - enemy shoots bullet at x interval of time
+// question 10
 
 
-
-// function - bullet contact triggers explosion and -1 life (all enemies have 1 life, gold enemy has 2 lives)
-
-
-
-// function - +1 life trigger = enemies >= 10 and/or gold enemy = 1
-
-
-
-// function - display "victory!" or "game over" enemies = 21 or lives = 0
-
-
-
-// function - display "final score" (score + time bonus)
-
-
-
-// 

@@ -1,4 +1,4 @@
-html{
+ html{
     margin: 0;
     background-color: black;
 }
@@ -10,7 +10,6 @@ body{
 /* Title Page */
 .page1{
     background-color: black;
-    /* color: black; */
     color: whitesmoke;
     display:inline-block;
     text-align: center;
@@ -49,27 +48,20 @@ body{
     text-align: center;
     height:100vh;
     width:100vw;
-    top: 0;
-}
-
-.page2rules{
-    top: 4%;
-    background-color: black;
-    position: relative;
-    font-family: 'Silkscreen';
+    
 }
 
 .page2controls{
     background-color: black;
     position: relative;
-    top: 5%;
+    top: 8%;
     font-family: 'Silkscreen';
 }
 
 .page2scoring{
     background-color: black;
     position: relative;
-    top: 10%;
+    top: 20%;
     font-family: 'Silkscreen';
 }
 
@@ -82,26 +74,29 @@ body{
     font-family: 'Silkscreen';
     text-align: center;
     position: relative;
-    top: 15%;
+    top: 35%;
 }
 
 .startButton:hover{
     color: blue;
-}
-
-
-
+} 
 
 /* Game */
-.canvas{
-    background-color: red;
+.questions{
+    background-color: black;
     color: whitesmoke;
-    display:block;
+    display:inline-block;
+    text-align: center;
     height:100vh;
     width:100vw;
-   
 }
-
+.q{
+    position: relative;
+    top: 25%;
+    font-family: 'Silkscreen';
+    color: whitesmoke;
+    display:inline-block;
+}
 
 
 
@@ -109,7 +104,7 @@ body{
 
 /* Post Game */
 
-.postGamePage{
+.postGame{
     background-color: black;
     color: whitesmoke;
     display:inline-block;
@@ -120,13 +115,9 @@ body{
 
 .endResult{
     position: relative;
-    top: 20%;
+    top: 40%;
     font-family: 'Silkscreen';
 }
 
-.score{
-    position: relative;
-    top: 20%;
-    font-family: 'Silkscreen';
-}
+
 
