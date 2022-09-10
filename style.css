@@ -98,9 +98,31 @@ body{
     display:inline-block;
 }
 
+.q{
+    position: relative;
+    top: 25%;
+}
 
-
-
+.nextqButton{
+    display:inline-block;
+    padding: 4em;
+    font-size: 20px;
+    background-color: black;
+    border: none;
+    color: whitesmoke;
+    font-family: 'Silkscreen';
+    text-align: center;
+    position: relative;
+    top: 60%;
+    }
+    
+    .nextqButton:hover{
+        color:blue;
+    }
+    
+.que{
+    padding:2em;
+}
 
 /* Post Game */
 
@@ -115,22 +137,8 @@ body{
 
 .endResult{
     position: relative;
-    top: 25%;
+    top: 40%;
     font-family: 'Silkscreen';
 }
 
-.nextqButton{
-display:inline-block;
-font-size: 20px;
-background-color: black;
-border: none;
-color: whitesmoke;
-font-family: 'Silkscreen';
-text-align: center;
-position: relative;
-top: 60%;
-}
 
-.nextqButton:hover{
-    color:blue;
-}
