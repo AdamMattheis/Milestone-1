@@ -2,7 +2,7 @@ Video Game Trivia
 
 
 Inspiration
-    I have always loved videogames and would like to spread knowledge and appreciation for them.
+    I have always loved video games and would like to spread knowledge and appreciation for them.
 
 
 Controls
@@ -10,9 +10,14 @@ Controls
     Then click 'next question' to go to the next question.
     No points, If you learn, you win!
 
+
 Technologies Used
     Macbook Pro
+    VS Code
+    W3Schools
     
+
 Bugs/Unfinished Functionality
     No bugs
+    Could have added sound, but not necessary to accomplish learning goal.
     
