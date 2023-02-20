@@ -1,0 +1,150 @@
+$background-color: black;
+$color: whitesmoke;
+$display: inline-block;
+$text-align: center;
+$height: 100vh;
+$width: 100vw;
+$font-family: 'Silkscreen';
+$border: none;
+$position: relative;
+$hover-color: blue;
+$hover-answerChoice-color: aqua;
+$margin: 0;
+
+html{
+    margin: $margin;
+    background-color: $background-color;
+}
+  
+  /* Title Page */
+.page1 {
+    background-color: $background-color;
+    color: $color;
+    display: $display;
+    text-align: $text-align;
+    height: $height;
+    width: $width;
+    
+    .title {
+      position: $position;
+      top: 30%;
+      font-family: $font-family;
+    }
+  
+    .playButton {
+      display: $display;
+      font-size: 25px;
+      background-color: $background-color;
+      border: $border;
+      color: $color;
+      font-family: $font-family;
+      text-align: $text-align;
+      position: $position;
+      top: 45%;
+      
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+  
+  /* Page 2 */
+  .page2 {
+    background-color: $background-color;
+    color: $color;
+    display: $display;
+    text-align: $text-align;
+    height: $height;
+    width: $width;
+    
+    .page2controls {
+      background-color: $background-color;
+      position: $position;
+      top: 8%;
+      font-family: $font-family;
+    }
+  
+    .page2scoring {
+      background-color: $background-color;
+      position: $position;
+      top: 20%;
+      font-family: $font-family;
+    }
+  
+    .startButton {
+      display: $display;
+      font-size: 30px;
+      border: white;
+      background-color: $background-color;
+      color: $color;
+      font-family: $font-family;
+      text-align: $text-align;
+      position: $position;
+      top: 35%;
+      
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  }
+  
+  /* Game */
+  .questions {
+    background-color: $background-color;
+    color: $color;
+    display: $display;
+    text-align: $text-align;
+    height: $height;
+    width: $width;
+    
+    .q {
+      position: $position;
+      top: 25%;
+      font-family: $font-family;
+      color: $color;
+      display: $display;
+    }
+  
+    .nextqButton {
+      display: $display;
+      font-size: 25px;
+      background-color: $background-color;
+      border: $border;
+      color: $color;
+      font-family: $font-family;
+      text-align: $text-align;
+      position: $position;
+      top: 90%;
+  
+      &:hover {
+        color: $hover-color;
+      }
+    }
+  
+    .que {
+      padding: 2em;
+    }
+  
+    .qButton:hover {
+      color: $hover-answerChoice-color;
+      background-color: $background-color;
+      border: $border;
+    }
+  }
+  
+  /* Post Game */
+  .postGame {
+    background-color: $background-color;
+    color: $color;
+    display: $display;
+    text-align: $text-align;
+    height: $height;
+    width: $width;
+    
+    .endResult {
+      position: $position;
+      top: 40%;
+      font-family: $font-family;
+    }
+  }
+  
